@@ -1,10 +1,10 @@
 #BlueJ package file
 objectbench.height=100
-objectbench.width=633
+objectbench.width=938
 package.editor.height=850
 package.editor.width=830
-package.editor.x=953
-package.editor.y=0
+package.editor.x=962
+package.editor.y=18
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
@@ -12,8 +12,8 @@ package.showUses=true
 project.charset=UTF-8
 target1.editor.height=700
 target1.editor.width=900
-target1.editor.x=993
-target1.editor.y=20
+target1.editor.x=320
+target1.editor.y=50
 target1.height=50
 target1.name=ZufallszahlenTester
 target1.naviview.expanded=true

@@ -39,7 +39,7 @@ public class ZufallszahlenTester
      * anzahl gibt an, wie viele Zufallszahlen ausgegeben werden sollen. Die beiden
      * Methoden sollen Methoden des Random-Objektes benutzen. Testen Sie!
      * @param anzahl anzahl an zurückgegebenen Zufallszahlen
-     * @return Gibt Zufallszahlen zurück.
+     * 
      */
     public void zufallszahlenAusgeben(int anzahl) 
     {
@@ -91,8 +91,19 @@ public class ZufallszahlenTester
      * wie häufig gewürfelt werden soll. Sie soll mitzählen, wie häufig die einzelnen Zahlen
      * gewürfelt wurden. Zum Zählen soll sie ein geeignetes Array verwenden und die ermittelten
      * Häufigkeiten ausgeben.
+     * @param anzahl Die Häufigkeit mit der gewürfelt werden soll.
      */
-    public void wuerfelTesten()
+    public void wuerfelTesten(int anzahl)
     {
+        int gewuerfelt[]= new int[6];
+//         int x=0;
+        for (int i=1;i<=anzahl; i++) {
+//             x=wuerfeln();
+//             gewuerfelt[x-1] = gewuerfelt[x-1]+1;
+            gewuerfelt[wuerfeln()-1] +=1;
+        }
+        for (int i=0; i<=5; i++) {
+            System.out.println("Die Zahl "+(i+1)+" wurde: "+gewuerfelt[i]+"x gewürfelt");
+        }
     }
 }
